@@ -40,7 +40,7 @@ const About = () => {
             <div class="grow">
 
             </div>
-            <img class=" max-w-80 bottom-0  md:block absolute overflow-hidden" src={HeroImage} alt="Illustration image" />
+            <img class=" max-w-80 bottom-0  md:block absolute overflow-hidden movecolone" src={HeroImage} alt="Illustration image" />
           </div>
         </div>
       </div>

@@ -17,6 +17,40 @@
   min-height: 100vh;
 }
 
+.moveArrow {
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+}
+
+@keyframes mymove {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(20px);
+  }
+}
+
+.movecolone {
+  animation-name: mymovecolumn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+}
+
+@keyframes mymovecolumn {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(20px);
+  }
+}
+
 body {
   background: rgb(243 244 246 / 1);
 }

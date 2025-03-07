@@ -61,7 +61,7 @@ const Contact = () => {
           </form>
 
           <div class="w-full lg:w-3/5 aos-init aos-animate" data-aos="fade-right">
-            <img class="w-full md:w-8/12 mx-auto md:ml-16 float-img" src={HeroImage} alt="Illustration image" loading="lazy" />
+            <img class="w-full md:w-8/12 mx-auto md:ml-16 float-img moveArrow" src={HeroImage} alt="Illustration image" loading="lazy" />
           </div>
         </div>
       </div>

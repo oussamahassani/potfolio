@@ -42,7 +42,7 @@ const Home = () => {
                   duration={500}
                   className="inline-flex drop-shadow-md flex justify-center items-center m-auto sm:m-0 px-6 py-3 mb-3 text-lg text-white bg-cyan-950 rounded-md sm:mb-0 hover:opacity-75"
                 >
-                
+
                   <Trans i18nKey="home.checkMyWork" />
                   <span className="group-hover:rotate-90 duration-300">
                     <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
@@ -55,7 +55,7 @@ const Home = () => {
                 <img
                   src={HeroImage}
                   alt="profile"
-                  className="rounded-2xl mx-auto  "
+                  className="rounded-2xl mx-auto  moveArrow"
                 />
               </div>
             </div>
