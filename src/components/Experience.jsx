@@ -12,6 +12,8 @@ import node from "../assets/node.png";
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
 import redux from "../assets/redux.png"
+import { Trans } from "react-i18next";
+
 const Experience = () => {
   const techs = [
     {
@@ -96,9 +98,10 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            <Trans i18nKey="experience.titel" />
+
           </p>
-          <p className="py-6">These are the technologies I've worked with and used them in my projects.</p>
+          <p className="py-6">  <Trans i18nKey="experience.mywork" /></p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

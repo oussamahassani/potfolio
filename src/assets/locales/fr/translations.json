@@ -1,0 +1,29 @@
+{
+  "home": {
+    "titel": "Je suis un développeur Web Full Stack",
+    "description": "Je peux transformer vos idées passionnantes en solutions numériques créatives et en services puissants !",
+    "checkMyWork": "Vérifiez mon travail"
+  },
+  "about": {
+    "titel": "À propos",
+    "howIm": "Je suis développeur web, travaillant à la fois en programmation backend et frontend. Je suis impatient d'améliorer mes compétences et d'apprendre de nouvelles technologies. Je suis ouvert à l'apprentissage et au travail avec n'importe quelle technologie web et je fais actuellement des missions en freelance.",
+    "phrase1": "J'aime coder des choses à partir de zéro et j'adore l'idée de donner vie à mes idées. Contactez-moi pour réaliser votre projet.",
+    "phrase2": "J'apprécie les designs minimalistes, le branding réfléchi du contenu et l'expérience client. Découvrons ensemble comment nous pouvons améliorer la conversion de votre projet !",
+    "phrase3": "J'aime créer ou repenser une identité distincte pour un produit ou un service, obtenir plus de trafic à partir des moteurs de recherche et des plateformes sociales."
+  },
+  "portfolio.titel": "Portefeuille",
+  "portfolio.mywork": "Découvrez quelques-unes de mes œuvres ici",
+  "portfolio.demo": "Démo",
+  "portfolio.github": "GitHub",
+  "experience.titel": "Expérience",
+  "experience.mywork": "Voici les technologies avec lesquelles j'ai travaillé et que j'ai utilisées dans mes projets.",
+  "contact.titel": "Contact",
+  "contact.text": "Remplissez le formulaire ci-dessous pour me contacter",
+  "nav.lan.en": "Anglais",
+  "nav.lan.fr": "Français",
+  "nav.home": "Accueil",
+  "nav.about": "À propos",
+  "nav.portfolio": "Portefeuille",
+  "nav.experience": "Expérience",
+  "nav.contact": "Contact"
+}

@@ -2,6 +2,7 @@ import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import { Trans } from "react-i18next";
 
 const Home = () => {
   return (
@@ -27,10 +28,11 @@ const Home = () => {
             </div>
             <div className="flex flex-col justify-center h-full w-full">
               <h2 className="text-7xl sm:text-7xl font-bold text-white">
-                I'm a Full Stack Web Developer
+
+                <Trans i18nKey="home.titel" />
               </h2>
               <p className="text-2xl font-light text-gray-300">
-                I can turn your exciting ideas into creative digital solutions and powerful services!
+                <Trans i18nKey="home.description" />
               </p>
 
               <div className="portfolio-btn">
@@ -40,8 +42,8 @@ const Home = () => {
                   duration={500}
                   className="inline-flex drop-shadow-md flex justify-center items-center m-auto sm:m-0 px-6 py-3 mb-3 text-lg text-white bg-cyan-950 rounded-md sm:mb-0 hover:opacity-75"
                 >
-                  Check My Work
-
+                
+                  <Trans i18nKey="home.checkMyWork" />
                   <span className="group-hover:rotate-90 duration-300">
                     <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                   </span>

@@ -3,7 +3,11 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import resume from "../assets/resume.pdf"
+import resumefr from "../assets/resumefr.pdf"
+
 const SocialLinks = () => {
+  const lng = localStorage.getItem("i18nextLng");
+  
   const links = [
     {
       id: 1,
@@ -40,7 +44,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: resume,
+      href: lng === "fr" ? resumefr : resume,
       download: true,
     },
 

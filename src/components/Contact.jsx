@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/contact_3d.png";
+import { Trans } from "react-i18next";
 
 //function for form reset
 function handleSubmit(e) {
@@ -17,9 +18,11 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
+            <Trans i18nKey="contact.titel" />
+
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6">            <Trans i18nKey="contact.text" />
+          </p>
         </div>
 
         <div className=" flex justify-center items-center">
