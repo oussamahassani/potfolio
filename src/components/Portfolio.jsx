@@ -48,41 +48,51 @@ const Portfolio = () => {
   ];
 
   return (
-    <div
-      name="portfolio"
-      className="bg-gradient-to-b w-full text-white from-cyan-800 to-cyan-700 md:h-screen portfolio"
-    >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-
-            <Trans i18nKey="portfolio.titel" />
-
-          </p>
-          <p className="py-6">   <Trans i18nKey="portfolio.mywork" /></p>
-        </div>
-
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link, repo }) => (
-            <div key={id} className="shadow-md shadow-gray-650 rounded-lg">
-              <img
-                src={src}
-                alt="projects"
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(link, '_blank')}>
-                  <Trans i18nKey="portfolio.demo" />
-                </button>
-                {repo && <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(repo, '_blank')}>
-                  <Trans i18nKey="portfolio.github" />
-                </button>}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+<div
+  name="portfolio"
+  className="bg-gradient-to-b w-full text-white from-cyan-800 to-cyan-700 portfolio"
+>
+  <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
+    <div className="pb-8">
+      <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-gray-500 overflow-hidden">
+        <Trans i18nKey="portfolio.titel" />
+      </p>
+      <p className="py-6 text-sm sm:text-base overflow-hidden">
+        <Trans i18nKey="portfolio.mywork" />
+      </p>
     </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
+      {portfolios.map(({ id, src, link, repo }) => (
+        <div key={id} className="shadow-md shadow-gray-650 rounded-lg overflow-hidden flex flex-col">
+          <img
+            src={src}
+            alt="projects"
+            className="w-full h-auto sm:h-64 md:h-80 object-cover rounded-md duration-200 hover:scale-105"
+          />
+          <div className="flex flex-col items-center justify-center p-4 space-y-4">
+            <button
+              className="w-full sm:w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105 text-center"
+              onClick={() => window.open(link, '_blank')}
+            >
+              <Trans i18nKey="portfolio.demo" />
+            </button>
+            {repo && (
+              <button
+                className="w-full sm:w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105 text-center"
+                onClick={() => window.open(repo, '_blank')}
+              >
+                <Trans i18nKey="portfolio.github" />
+              </button>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
+
   );
 };
 
