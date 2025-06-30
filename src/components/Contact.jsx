@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/contact_3d.png";
+import HeroImage from "../assets/contact_3d.webp";
 import { Trans } from "react-i18next";
 
 //function for form reset
@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="contact w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="contact w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white pt-10 pb-10 p-4"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">

@@ -1,7 +1,10 @@
 {
   "home": {
     "titel": "Je suis un développeur Web Full Stack",
-    "description": "Je peux transformer vos idées passionnantes en solutions numériques créatives et en services puissants !",
+    "descriptionn": "Je peux transformer vos idées passionnantes en solutions numériques créatives et en services puissants !",
+
+     "description":"Je ne me contente pas de coder, je donne vie à des idées. Chaque projet que j’entreprends est une œuvre numérique sur-mesure, créée pour répondre à des besoins uniques, tout en offrant une expérience fluide et intuitive. Mon approche ? Fusionner créativité et technologie pour bâtir des solutions robustes et innovantes.",
+     "description2":"Que vous ayez besoin d’une interface élégante, d’un backend puissant, ou d’une application mobile performante, je m’engage à offrir des résultats à la hauteur de vos attentes. Mais derrière chaque ligne de code, c'est une passion qui s'exprime. Construire, améliorer, transformer, voilà ce qui me motive au quotidien.",
     "checkMyWork": "Vérifiez mon travail"
   },
   "about": {
@@ -9,10 +12,33 @@
     "howIm": "Je suis développeur web, travaillant à la fois en programmation backend et frontend. Je suis impatient d'améliorer mes compétences et d'apprendre de nouvelles technologies. Je suis ouvert à l'apprentissage et au travail avec n'importe quelle technologie web et je fais actuellement des missions en freelance.",
     "phrase1": "J'aime coder des choses à partir de zéro et j'adore l'idée de donner vie à mes idées. Contactez-moi pour réaliser votre projet.",
     "phrase2": "J'apprécie les designs minimalistes, le branding réfléchi du contenu et l'expérience client. Découvrons ensemble comment nous pouvons améliorer la conversion de votre projet !",
-    "phrase3": "J'aime créer ou repenser une identité distincte pour un produit ou un service, obtenir plus de trafic à partir des moteurs de recherche et des plateformes sociales."
+    "phrase3": "J'aime créer ou repenser une identité distincte pour un produit ou un service, obtenir plus de trafic à partir des moteurs de recherche et des plateformes sociales.",
+  "phrase4":"Que vous ayez besoin d’une interface élégante, d’un backend puissant, ou d’une application mobile performante, je m’engage à offrir des résultats à la hauteur de vos attentes. Mais derrière chaque ligne de code, c'est une passion qui s'exprime. Construire, améliorer, transformer, voilà ce qui me motive au quotidien."
+  
   },
   "portfolio.titel": "Portefeuille",
   "portfolio.mywork": "Découvrez quelques-unes de mes œuvres ici",
+  "portfolio.myworktitel1":"site d'annonce",
+  "portfolio.myworkDescription1": "Cette application immobilière permet aux utilisateurs de consulter, publier et gérer des annonces de biens immobiliers (appartements, maisons, terrains, bureaux, etc.). Les utilisateurs peuvent rechercher des biens par localisation, prix, type ou surface, enregistrer leurs favoris et contacter les vendeurs directement via la plateforme.",
+  "portfolio.myworkDescription1.1": "Le back-end repose sur Node.js avec Express, et les données sont stockées dans MongoDB. Le front-end est construit avec React, offrant une interface rapide, réactive et moderne.\n\nL’ensemble de l’application est hébergé sur un serveur cloud DigitalOcean, ce qui garantit performance, scalabilité et sécurité.",
+  "portfolio.myworktite2":"site de déménageur France",
+  "portfolio.myworkDescription2": "Super Dem est un site de présentation de services professionnels, conçu avec WordPress. Il permet aux visiteurs de découvrir les prestations proposées, d’en savoir plus sur l’entreprise, et de prendre contact facilement. Grâce à une interface claire et responsive, les utilisateurs peuvent naviguer en toute simplicité, que ce soit depuis un ordinateur, une tablette ou un smartphone..",
+  "portfolio.myworktite3":"site web startup",
+  "portfolio.myworkDescription3": "Ce site vitrine, développé avec Vue.js et Node.js, présente les services innovants d’une startup. Il offre une navigation rapide, fluide et interactive, mettant en avant les solutions proposées, les valeurs de l’entreprise et les avantages pour les clients. Grâce à une architecture moderne, le site est 100 % responsive et optimisé pour les performances et l'expérience utilisateur. Les visiteurs peuvent consulter les offres, en apprendre davantage sur l’équipe fondatrice et contacter facilement la startup via un formulaire ou un chatbot.",
+  "portfolio.myworktite4":"plateforme de micro-tutoring",
+
+  "portfolio.myworkDescription4": "Cette plateforme de micro-tutoring, développée avec React.js et Java (framework JHipster), permet la mise en relation entre étudiants et tuteurs pour des séances d'accompagnement personnalisées. Le site comprend plusieurs tableaux de bord sécurisés : un pour les administrateurs, un pour les tuteurs, et un pour les étudiants.",
+  "portfolio.myworkDescription4.1":"Les utilisateurs peuvent réserver des séances de tutorat en ligne, effectuer des paiements sécurisés, consulter l’historique de leurs réservations, et accéder à des ressources pédagogiques payantes (documents, fiches, exercices).",
+  "portfolio.myworkDescription4.2":"La plateforme offre une expérience fluide, responsive, et intuitive, intégrant un système de messagerie interne, des notifications automatiques, et un espace personnel pour chaque rôle.",
+  "portfolio.myworktite5":"site d’Aswaaq",
+
+  "portfolio.myworkDescription5": "Le site d’Aswaaq, développé avec WordPress, propose une expérience moderne et fluide de présentation de services, centrée sur les besoins quotidiens des consommateurs.Grâce à une interface claire et responsive, le site reflète l'engagement d’Aswaaq en matière de qualité, proximité et service client, tout en intégrant des fonctionnalités modernes de commerce électronique.",
+  "portfolio.myworktite6":"site de réservation",
+  "portfolio.myworkDescription6": "Ce site web, développé avec React.js et Node.js, permet aux utilisateurs de réserver facilement des terrains de sport et diverses activités de loisir en ligne",
+ "portfolio.myworkDescription6.1":"Grâce à une interface moderne, rapide et responsive, les utilisateurs peuvent consulter les disponibilités en temps réel, choisir l’activité (football, tennis, padel, yoga, etc.), sélectionner un créneau horaire et effectuer leur réservation en quelques clics.",
+  "portfolio.myworktite7":"gestion électronique des documents (GED)",
+ "portfolio.myworkDescription7": "Cette application de gestion électronique des documents (GED), développée avec Angular et Node.js, permet aux entreprises de centraliser, organiser et sécuriser l’ensemble de leurs documents numériques.",
+
   "portfolio.demo": "Démo",
   "portfolio.github": "GitHub",
   "experience.titel": "Expérience",

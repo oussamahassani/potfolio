@@ -6,14 +6,40 @@
   <link rel="icon" href="%PUBLIC_URL%/logo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Oussama Hassani | Portfolio">
-  <meta property="og:title" content="Oussama Hassani | Portfolio">
+  
+    <!-- Balises SEO -->
+    <title>Oussama Hassani | Développeur Web et Mobile</title>
+    <meta name="description" content="Portfolio de Oussama Hassani, développeur web et mobile freelance. Découvrez mes projets, mes compétences et contactez-moi pour vos besoins en développement." />
+    <meta name="keywords" content="développeur web, développeur mobile, React, JavaScript, freelance, portfolio, Oussama Hassani" />
+    <meta name="author" content="Oussama Hassani" />
+
+    <!-- Réseaux sociaux (Open Graph pour Facebook, LinkedIn...) -->
+    <meta property="og:title" content="Oussama Hassani | Développeur Web & Mobile| expérience 8 ans " />
+    <meta property="og:description" content="Découvrez mes projets et services en développement web et mobile." />
+    <meta property="og:image" content="https://oussama-hassani.netlify.app/aperçu.jpg" />
+    <meta property="og:url" content="https://oussama-hassani.netlify.app" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card (facultatif) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Oussama Hassani | Développeur Web & Mobile" />
+    <meta name="twitter:description" content="Portfolio de développeur web et mobile freelance." />
+    <meta name="twitter:image" content="https://oussama-hassani.netlify.app/aperçu.jpg" />
   <meta name="copyrighted-site-verification" content="c5ab4b21e5ce9aa7" />
   <meta name="twitter:description"
     content="Explore the portfolio of Oussama Hassani showcasing skills, projects, and experiences.">
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
 
+<!-- Établit une connexion anticipée -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Précharge les styles CSS de Google Fonts -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+
+<!-- Charge sans bloquer le rendu -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" media="all" onload="this.onload=null;this.media='all';">
 
   <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -29,11 +55,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  <title>oussama Hassani | Portfolio</title>
+ 
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <noscript>You need to enable JavaScript to run this app.
+
+      <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  </noscript>
   <div id="root"></div>
   <!--
       This HTML file is a template.
@@ -45,9 +75,9 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <!--  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <script> AOS.init(); </script>
+  <script> AOS.init(); </script> -->
 </body>
 
 
