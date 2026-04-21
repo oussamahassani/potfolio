@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
+import { Trans } from "react-i18next";
+
 import emailjs from "@emailjs/browser";
 
 /**
@@ -49,7 +51,7 @@ const ScheduleCall = ({ isOpen, onClose }) => {
         message: formData.message,
       };
 
-      await emailjs.send(
+     await emailjs.send(
         process.env.REACT_APP_EMAIL_SERVICE_ID || "service_id",
         "template_schedule_call",
         templateParams
@@ -85,7 +87,8 @@ const ScheduleCall = ({ isOpen, onClose }) => {
         {/* Header */}
         <div className="flex justify-between items-center p-6 border-b dark:border-gray-700">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-            Schedule a Call
+          
+                 <Trans i18nKey="home.schedule" />
           </h2>
           <button
             onClick={onClose}

@@ -1,11 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { MdClose } from "react-icons/md";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
-/**
- * Newsletter Subscribe Modal
- * Allows users to subscribe to the newsletter
- */
+
 const Newsletter = ({ isOpen, onClose }) => {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
@@ -63,7 +61,6 @@ const Newsletter = ({ isOpen, onClose }) => {
       setSuccess(true);
       setEmail("");
 
-      // Close modal after 2 seconds
       setTimeout(() => {
         setSuccess(false);
         onClose();

@@ -1,7 +1,12 @@
 {
   "home.titel": "I'm a Full Stack Web Developer",
-  "home.description": "I can turn your exciting ideas into creative digital solutions and powerful services!",
+  "home.descriptionn": "I can turn your exciting ideas into creative digital solutions and powerful services!",
+  "home.description":"I don’t just code, I bring ideas to life. Every project I undertake is a tailor-made digital creation, designed to meet unique needs while delivering a smooth and intuitive experience. My approach? To merge creativity and technology to build robust and innovative solutions.",
+  "home.description2":"Whether you need an elegant interface, a powerful backend, or a high-performing mobile application, I am committed to delivering results that meet your expectations.",
   "home.checkMyWork": "Check My Work",
+  "home.call":" 📞 Call",
+  "home.news":" 📬 News",
+  "home.schedule":"Schedule a Call",
   "about.titel": "About",
   "about.howIm": "  I am a web developer, working in both, backend and frontend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology and currently doing freelance gigs.",
   "about.phrase1": " I like to code matters from scratch and love the idea of bringing thoughts to life. Connect with me to get your project done.",
@@ -42,5 +47,15 @@
   "nav.about": "About",
   "nav.portfolio": "Portfolio",
   "nav.experience": "experience",
-  "nav.contact": "contact"
+  "nav.contact": "contact",
+  "newsletter.title": "📬 Subscribe to Newsletter",
+  "newsletter.description": "Get the latest articles on full-stack development, performance optimization, and best practices delivered to your inbox.",
+  "newsletter.placeholder": "your.email@example.com",
+  "newsletter.invalidEmail": "Please enter a valid email address",
+  "newsletter.error": "Unable to subscribe. Please try again later.",
+  "newsletter.success": "✅ Successfully subscribed!",
+  "newsletter.loading": "Subscribing...",
+  "newsletter.done": "Done!",
+  "newsletter.subscribe": "Subscribe Now",
+  "newsletter.privacy": "We respect your privacy. Unsubscribe at any time."
 }

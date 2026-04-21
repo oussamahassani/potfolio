@@ -34,9 +34,7 @@ const NavBar = () => {
     }`}>
       {/* Logo */}
       <div className="flex items-center gap-2">
-        <div className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-          Dev<span className="text-white">.</span>
-        </div>
+              <h1 className="text-5xl font-signature ml-2"><a className="link-underline link-underline-black" href="https://oussama-hassani.netlify.app" target="_blank" rel="noreferrer">Oussama</a></h1>
       </div>
 
       {/* Desktop Navigation */}

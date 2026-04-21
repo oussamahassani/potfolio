@@ -39,7 +39,7 @@ const Contact = () => {
         message: formData.message,
       };
 
-      await emailjs.send(
+     await emailjs.send(
         process.env.REACT_APP_EMAIL_SERVICE_ID || "service_id",
         "template_contact_form",
         templateParams
@@ -219,7 +219,7 @@ const Contact = () => {
                       href={process.env.REACT_APP_GITHUB_URL}
                       target="_blank"
                       rel="noreferrer"
-                      className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition"
+                      className="text-white px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition"
                     >
                       GitHub
                     </a>
@@ -229,7 +229,7 @@ const Contact = () => {
                       href={process.env.REACT_APP_LINKEDIN_URL}
                       target="_blank"
                       rel="noreferrer"
-                      className="px-4 py-2 bg-blue-700 hover:bg-blue-600 rounded-lg transition"
+                      className="text-white px-4 py-2 bg-blue-700 hover:bg-blue-600 rounded-lg transition"
                     >
                       LinkedIn
                     </a>
@@ -239,7 +239,7 @@ const Contact = () => {
                       href={process.env.REACT_APP_TWITTER_URL}
                       target="_blank"
                       rel="noreferrer"
-                      className="px-4 py-2 bg-cyan-700 hover:bg-cyan-600 rounded-lg transition"
+                      className="text-white px-4 py-2 bg-cyan-700 hover:bg-cyan-600 rounded-lg transition"
                     >
                       Twitter
                     </a>

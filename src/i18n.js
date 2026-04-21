@@ -5,6 +5,11 @@ import HttpBackend from 'i18next-http-backend';
 import translationEN from './assets/locales/en/translations.json';
 import translationFR from './assets/locales/fr/translations.json';
 
+import portfolioDataEN from './assets/locales/en/portfolio-data.json';
+import portfolioDataFR from './assets/locales/fr/portfolio-data.json';
+import portfolioSectionsEN from './assets/locales/en/portfolio-sections.json';
+import portfolioSectionsFR from './assets/locales/fr/portfolio-sections.json';
+
 i18n
     .use(LanguageDetector)   // Détecte la langue depuis le navigateur
     .use(HttpBackend)         // Pour charger les traductions depuis un backend

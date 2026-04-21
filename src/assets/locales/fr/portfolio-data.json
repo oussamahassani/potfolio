@@ -1,0 +1,108 @@
+{
+  "skills": {
+    "title": "Skills & Expertise",
+    "categories": [
+      {
+        "name": "Frontend Development",
+        "skills": [
+          { "name": "React / Next.js", "level": 95, "years": "8+" },
+          { "name": "JavaScript / TypeScript", "level": 98, "years": "8+" },
+          { "name": "HTML5 / CSS3 / Tailwind", "level": 96, "years": "8+" },
+          { "name": "Angular", "level": 90, "years": "6+" },
+          { "name": "Performance Optimization", "level": 92, "years": "6+" }
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "skills": [
+          { "name": "Node.js / Express", "level": 94, "years": "7+" },
+          { "name": "Java / Spring Boot", "level": 93, "years": "8+" },
+          { "name": ".NET / C#", "level": 88, "years": "5+" },
+          { "name": "GraphQL / REST APIs", "level": 95, "years": "7+" },
+          { "name": "Microservices Architecture", "level": 91, "years": "6+" }
+        ]
+      },
+      {
+        "name": "Databases & Tools",
+        "skills": [
+          { "name": "MongoDB / NoSQL", "level": 90, "years": "7+" },
+          { "name": "PostgreSQL / SQL", "level": 94, "years": "8+" },
+          { "name": "Docker / Kubernetes", "level": 87, "years": "4+" },
+          { "name": "Git / CI-CD Pipelines", "level": 96, "years": "8+" },
+          { "name": "AWS / Cloud Services", "level": 89, "years": "5+" }
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications & Achievements",
+    "items": [
+      {
+        "id": 1,
+        "title": "AWS Certified Solutions Architect",
+        "issuer": "Amazon Web Services",
+        "date": "2023",
+        "credentialId": "AWS-CERT-001",
+        "url": "#"
+      },
+      {
+        "id": 2,
+        "title": "Google Cloud Associate Cloud Engineer",
+        "issuer": "Google Cloud",
+        "date": "2022",
+        "credentialId": "GCP-CERT-001",
+        "url": "#"
+      },
+      {
+        "id": 3,
+        "title": "React Advanced Patterns",
+        "issuer": "Frontend Masters",
+        "date": "2021",
+        "credentialId": "FM-REACT-001",
+        "url": "#"
+      },
+      {
+        "id": 4,
+        "title": "Java Microservices Specialist",
+        "issuer": "Oracle University",
+        "date": "2023",
+        "credentialId": "JAVA-MS-001",
+        "url": "#"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Clients Say",
+    "items": [
+      {
+        "id": 1,
+        "text": "Outstanding developer with deep expertise in full-stack development. Delivered high-quality code and solved complex architectural challenges with elegance.",
+        "author": "ClientName One",
+        "role": "CTO, Tech Company",
+        "image": "📱"
+      },
+      {
+        "id": 2,
+        "text": "Professional, reliable, and truly understands modern web development best practices. Delivered projects on time and with exceptional quality.",
+        "author": "ClientName Two",
+        "role": "Product Manager, Startup",
+        "image": "💼"
+      },
+      {
+        "id": 3,
+        "text": "A senior developer who mentors junior developers and elevates team standards. Highly recommended for technical leadership roles.",
+        "author": "ClientName Three",
+        "role": "Tech Lead, Enterprise",
+        "image": "🚀"
+      }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "label": "Years Experience", "value": "8+" },
+      { "label": "Projects Completed", "value": "50+" },
+      { "label": "Companies Worked With", "value": "15+" },
+      { "label": "Open Source Contributions", "value": "25+" }
+    ]
+  }
+}
