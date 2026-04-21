@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
     <Helmet>
-      <title>À propos | Oussama Hassani</title>
+     <title>À propos | Oussama Hassani</title>
       <meta
         name="description"
         content="Découvrez qui est Oussama Hassani, développeur web et mobile passionné, ses valeurs, son parcours et sa vision du développement moderne."

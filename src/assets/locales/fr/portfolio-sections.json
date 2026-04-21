@@ -1,0 +1,47 @@
+{
+  "skills": {
+    "title": "Compétences Techniques",
+    "frontendTitle": "Développement Frontend",
+    "backendTitle": "Développement Backend",
+    "devopsTitle": "Bases de Données & DevOps",
+    "yearsExperience": "Années d'Expérience",
+    "projectsCompleted": "Projets Complétés",
+    "companiesWorkedWith": "Entreprises",
+    "openSourceContributions": "Contributions Open Source"
+  },
+  "services": {
+    "title": "Services",
+    "architecture": "Architecture Système & Design",
+    "architectureDesc": "Conception de systèmes scalables utilisant microservices, architectures event-driven et patterns cloud-native.",
+    "fullstack": "Développement Web Full-Stack",
+    "fullstackDesc": "Construction d'applications web modernes et performantes avec React, Next.js, Node.js et TypeScript.",
+    "java": "Développement Enterprise Java",
+    "javaDesc": "Développement d'applications robustes utilisant Spring Boot, Spring Cloud et les meilleures pratiques Java.",
+    "devops": "DevOps & Services Cloud",
+    "devopsDesc": "Déploiement et gestion d'applications sur AWS, GCP et Azure avec Docker, Kubernetes et pipelines CI/CD.",
+    "performance": "Optimisation de Performance",
+    "performanceDesc": "Identification et élimination des goulets d'étranglement pour améliorer la réactivité et la scalabilité.",
+    "security": "Sécurité & Bonnes Pratiques",
+    "securityDesc": "Implémentation de mesures de sécurité, revues de code et établissement de standards de développement.",
+    "availableForConsulting": "Disponible pour Consulting & Développement",
+    "scheduleCall": "Planifier un Appel"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "continuousLearning": "Apprentissage Continu",
+    "continuousLearningDesc": "Engagé à rester à jour avec les tendances du secteur à travers formations, cours et certifications régulières."
+  },
+  "testimonials": {
+    "title": "Témoignages Clients",
+    "joinOurClients": "👥 Rejoignez Notre Liste de Clients Satisfaits",
+    "interested": "Intéressé par une collaboration? Discutons de votre projet et comment je peux réaliser votre vision."
+  },
+  "blog": {
+    "title": "Blog Technique",
+    "subtitle": "Insights et bonnes pratiques sur le développement full-stack, l'architecture et les technologies modernes",
+    "readMore": "Lire Plus",
+    "subscribe": "S'abonner",
+    "featured": "Article en Avant",
+    "views": "vues"
+  }
+}

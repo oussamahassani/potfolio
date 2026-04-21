@@ -1,0 +1,47 @@
+{
+  "skills": {
+    "title": "Technical Skills",
+    "frontendTitle": "Frontend Development",
+    "backendTitle": "Backend Development",
+    "devopsTitle": "Databases & DevOps",
+    "yearsExperience": "Years Experience",
+    "projectsCompleted": "Projects Completed",
+    "companiesWorkedWith": "Companies",
+    "openSourceContributions": "Open Source Contributions"
+  },
+  "services": {
+    "title": "Services",
+    "architecture": "System Architecture & Design",
+    "architectureDesc": "Design scalable, maintainable systems using microservices, event-driven architecture, and cloud-native patterns.",
+    "fullstack": "Full-Stack Web Development",
+    "fullstackDesc": "Build modern, performant web applications with React, Next.js, Node.js, and TypeScript.",
+    "java": "Enterprise Java Development",
+    "javaDesc": "Develop robust enterprise applications using Spring Boot, Spring Cloud, and Java best practices.",
+    "devops": "DevOps & Cloud Services",
+    "devopsDesc": "Deploy and manage applications on AWS, GCP, and Azure with Docker, Kubernetes, and CI/CD pipelines.",
+    "performance": "Performance Optimization",
+    "performanceDesc": "Identify and eliminate bottlenecks to improve responsiveness, reduce load times, and scale efficiently.",
+    "security": "Security & Best Practices",
+    "securityDesc": "Implement security measures, conduct code reviews, and establish development standards and best practices.",
+    "availableForConsulting": "Available for Consulting & Development",
+    "scheduleCall": "Schedule a Call"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "continuousLearning": "Continuous Learning",
+    "continuousLearningDesc": "Committed to staying current with industry trends and best practices through regular training, courses, and certifications."
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "joinOurClients": "👥 Join Our Growing List of Satisfied Clients",
+    "interested": "Interested in working together? Let's discuss your project and how I can help bring your vision to life."
+  },
+  "blog": {
+    "title": "Technical Blog",
+    "subtitle": "Insights and best practices on full-stack development, architecture, and modern technologies",
+    "readMore": "Read More",
+    "subscribe": "Subscribe",
+    "featured": "Featured Article",
+    "views": "views"
+  }
+}

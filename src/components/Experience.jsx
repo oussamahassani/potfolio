@@ -121,6 +121,7 @@ const Experience = () => {
     <meta property="og:title" content="Mes compétences techniques" />
     <meta property="og:description" content="Une vue d'ensemble des technologies que je maîtrise en développement web et mobile." />
     <meta property="og:type" content="website" />
+    
   </Helmet>
     <div name="experience" className="w-full min-h-screen experience">
     <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">

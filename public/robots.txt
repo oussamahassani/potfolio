@@ -1,3 +1,41 @@
-# https://www.robotstxt.org/robotstxt.html
+# Robots.txt for Full Stack Developer Portfolio
+# Allow all search engines to crawl and index the site
+
 User-agent: *
-Disallow:
+Allow: /
+Allow: /*.js
+Allow: /*.css
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.woff
+Allow: /*.woff2
+Allow: /*.ttf
+Allow: /*.eot
+
+Disallow: /admin
+Disallow: /.env
+Disallow: /.git
+Disallow: /node_modules
+Disallow: /.netlify
+Disallow: /build
+
+# Allow search engines to crawl static assets
+User-agent: *
+Allow: /public/
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://yourportfolio.com/sitemap.xml
